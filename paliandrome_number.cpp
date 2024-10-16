@@ -13,7 +13,7 @@ int main() {
     int length = myWord.length();
 
     // Nested loops to check palindrome
-    for ( i = 0, j=length-1-i; i <= length && j>=0; i++,j--) {
+    for ( i = 0, j=length-1; i <= length, j>=0; i++,j--) {
 
           
             if (myWord[i] != myWord[j]) { // Check for mismatch
@@ -27,7 +27,7 @@ int main() {
 
     // Display the result
     if (same == 1) {
-        cout << "It is a palindrome word." << endl;
+        cout << "It is a palindromeee word." << endl;
     } else {
         cout << "Not a palindrome word." << endl;
     }
